@@ -344,6 +344,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
 }
 
+.banner button:hover{transform:scale(1.2)}
+
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
@@ -382,6 +384,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skills img {
   width:65px;
   height:65px;
+  cursor:pointer;
 }
   @media all and (max-width:992px){
     .skills img{

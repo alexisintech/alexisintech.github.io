@@ -1,7 +1,7 @@
-import { Container, Row, Col, Nav } from "react-bootstrap";
-import navIcon1 from "../assets/imgs/nav-icon1.svg";
-import navIcon2 from "../assets/imgs/nav-icon2.svg";
-import navIcon3 from "../assets/imgs/nav-icon3.svg";
+import { Container, Row, Nav } from "react-bootstrap";
+import linkedin from "../assets/imgs/linkedin.svg";
+import github from "../assets/imgs/github.svg";
+import twitter from "../assets/imgs/twitter.svg";
 
 export const Footer = () => {
   return (
@@ -15,13 +15,13 @@ export const Footer = () => {
             </div>
             <div className="social-icon">
               <a href="#">
-                <img src={navIcon1} alt="" />
+                <img src={linkedin} alt="" />
               </a>
               <a href="#">
-                <img src={navIcon2} alt="" />
+                <img src={github} alt="" />
               </a>
               <a href="#">
-                <img src={navIcon3} alt="" />
+                <img src={twitter} alt="" />
               </a>
             </div>
             <Nav.Link

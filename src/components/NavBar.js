@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import navIcon1 from "../assets/imgs/nav-icon1.svg";
-import navIcon2 from "../assets/imgs/nav-icon2.svg";
-import navIcon3 from "../assets/imgs/nav-icon3.svg";
+import linkedin from "../assets/imgs/linkedin.svg";
+import github from "../assets/imgs/github.svg";
+import twitter from "../assets/imgs/twitter.svg";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
@@ -73,13 +73,13 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="#">
-                  <img src={navIcon1} alt="" />
+                  <img src={linkedin} alt="" />
                 </a>
                 <a href="#">
-                  <img src={navIcon2} alt="" />
+                  <img src={github} alt="" />
                 </a>
                 <a href="#">
-                  <img src={navIcon3} alt="" />
+                  <img src={twitter} alt="" />
                 </a>
               </div>
             </span>
