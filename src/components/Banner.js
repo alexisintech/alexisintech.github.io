@@ -12,18 +12,13 @@ export const Banner = () => {
   const [text, setText] = useState(""); //will be the character of the role being typed out
   const [characterPeriod, setCharacterPeriod] = useState(100); //how much time passes between each character being typed out
   const [index, setIndex] = useState(1);
+  const [stacked, setStacked] = useState(false);
   const roles = [
     "Software Engineer",
     "Mental Health Advocate",
     "Community Developer",
   ];
   const period = 500; //how much time passes between each role
-
-  // useEffect(() => {
-  //   if (window.screen.width <= 780 {
-
-  //   })
-  // }, []);
 
   useEffect(() => {
     //update the typing
@@ -67,7 +62,12 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col
+            xs={12}
+            md={6}
+            xl={7}
+            className="order-2 order-md-1 px-4 px-md-0"
+          >
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -126,7 +126,12 @@ export const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col
+            xs={12}
+            md={6}
+            xl={5}
+            className="order-1 order-md-2 mb-5 mb-md-0"
+          >
             <div className="d-flex justify-content-center">
               <img src={avatar} alt="Header Img" />
             </div>

@@ -104,7 +104,7 @@ nav.navbar .navbar-brand {
 }
 
 nav.navbar .navbar-brand span:nth-child(even){
-  color:red;
+  color:rgb(177, 28, 21);
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -287,9 +287,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 250px 0 100px 0;
 }
-  @media all and (max-width:780px){
+  @media all and (max-width:767px){
     .banner {
-      padding: 175px 0 100px 0;
+      padding: 135px 0 100px 0;
     }
   }
 
@@ -312,10 +312,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
   @media all and (max-width:995px){
     .banner h1 {
-      font-size: 3rem;
+      font-size: 2.25rem;
     }
     .banner .txt-role > span {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -357,19 +357,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
 }
 
-/* .banner button:hover svg {
-  margin-left: 25px;
-} */
-
 .banner img {
   width:80%;
 }
-  @media all and (max-width:780px){
+  @media all and (max-width:767px){
     .banner img {
       width:60%;
     }
   }
-
 
 .txt-role > .wrap {
   border-right: 0.08em solid #666;
