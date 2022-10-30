@@ -37,10 +37,18 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+.banner h1, .skills h2, h3, h4, h5, h6 {
+  /* margin: 0; */
   padding: 0;
-  line-height: normal;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+}
+@media all and (max-width:995px){
+  .banner h1, .skills h2 {
+    font-size: 2.25rem;
+  }
 }
 
 p, a, li, button, ul {
@@ -285,7 +293,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 250px 0 100px 0;
+  padding: 250px 0 150px 0;
 }
   @media all and (max-width:767px){
     .banner {
@@ -304,16 +312,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 
-.banner h1, .banner .txt-role > span {
-  font-size: 3.75rem;
+.banner .txt-role > span {
+  font-size: 2.25rem;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
 }
   @media all and (max-width:995px){
-    .banner h1 {
-      font-size: 2.25rem;
-    }
     .banner .txt-role > span {
       font-size: 1.5rem;
     }
@@ -369,3 +374,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-role > .wrap {
   border-right: 0.08em solid #666;
 }
+
+/************ SKILLS ************/
+
+.skills {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skills-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.skills img {
+  width:65px;
+  height:65px;
+}
+@media all and (max-width:992px){
+  .skills img{
+    width:50px;
+    height:50px;
+  }
+}
+
+.icon-container {
+  max-width:600px;
+}
+  @media all and (max-width:992px){
+    .icon-container{
+      max-width:350px;
+    }
+  }
+  @media all and (max-width:426px){
+    .icon-container{
+      max-width:300px;
+    }
+  }
