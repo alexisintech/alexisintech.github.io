@@ -15,28 +15,25 @@ export const Skills = () => {
     <section className="skills" id="skills">
       <Container>
         <Row>
-          <div className="skills-bx wow zoomIn">
-            <h2 className="text-center">Tools and Technologies</h2>
-            <div className="icon-container mx-auto">
-              <Col xs={12} className="d-flex justify-content-between mt-5">
-                <img src={html} alt="" />
-                <img src={css} alt="" />
-                <img src={js} alt="" />
-                <img src={node} alt="" />
-                <img src={express} alt="" />
-              </Col>
-              <Col
-                xs={12}
-                className="d-flex justify-content-between mt-5 mt-md-4"
-              >
-                <img src={mongo} alt="" />
-                <img src={react} alt="" />
-                <img src={bootstrap} alt="" />
-                <img src={mui} alt="" />
-                <img src={git} alt="" />
-              </Col>
+          <Col xs={12}>
+            <div className="skills-bx wow zoomIn">
+              <h2 className="text-center">Tools and Technologies</h2>
+              <div className="d-flex justify-content-center mt-5">
+                <div className="icon-container">
+                  <img src={html} alt="" />
+                  <img src={css} alt="" />
+                  <img src={js} alt="" />
+                  <img src={node} alt="" />
+                  <img src={express} alt="" />
+                  <img src={mongo} alt="" />
+                  <img src={react} alt="" />
+                  <img src={bootstrap} alt="" />
+                  <img src={mui} alt="" />
+                  <img src={git} alt="" />
+                </div>
+              </div>
             </div>
-          </div>
+          </Col>
         </Row>
       </Container>
     </section>
