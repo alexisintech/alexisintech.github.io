@@ -385,6 +385,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width:65px;
   height:65px;
   cursor:pointer;
+  transition: all 0.5s;
 }
   @media all and (max-width:992px){
     .skills img{
@@ -392,6 +393,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       height:50px;
     }
   }
+
+.skills img:hover {
+  transform: translateY(-20px);
+}
 
 .icon-container {
   display: flex;
@@ -469,7 +474,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
 }
@@ -477,6 +482,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .project .nav.nav-pills .nav-link{
     font-size:0.7rem;
   }
+}
+
+.project .nav.nav-pills .nav-link:hover{
+  background: linear-gradient(90.21deg, rgb(170, 54, 54) -5.91%, rgb(36, 50, 173) 111.58%); 
 }
 
 .project .nav.nav-pills .nav-link::before {
