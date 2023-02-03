@@ -13,6 +13,9 @@
 - Projects section
 - Social links
 
+- This branch `main` is bundled, minified, and optimized for deployment.
+- Find the source code in the development branch!
+
 <!-- BUILT WITH -->
 
 ## 🛠️ Built With
