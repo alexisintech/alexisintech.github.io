@@ -13,7 +13,7 @@ export const ProjectCard = ({
   return (
     <Col size={12} md={6}>
       <div className="proj-imgbx">
-        <img src={imgUrl} />
+        <img src={imgUrl} alt={description} />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <div className="d-flex justify-content-center gap-5">

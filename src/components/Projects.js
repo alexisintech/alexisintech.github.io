@@ -14,28 +14,32 @@ export const Projects = () => {
   const projects = [
     {
       title: "Mindfully",
-      description: "Design & Development",
+      description:
+        "Mindfully is a website that encourages users to improve their mental health through mindfulness and journaling.",
       imgUrl: mindfully,
       githubUrl: "https://github.com/alexisintech/mindfully",
       deployedUrl: "https://mindfully.up.railway.app/",
     },
     {
       title: "Seize The Day",
-      description: "Design & Development",
+      description:
+        "Seize The Day is a task tracking website so that you can organize your day, mindfully.",
       imgUrl: seizeTheDay,
       githubUrl: "https://github.com/alexisintech/seize-the-day",
       deployedUrl: "https://seize-the-day.netlify.app/",
     },
     {
       title: "CSS Generators API",
-      description: "Design & Development",
+      description:
+        "The CSS Generators API provides a directory of efficacious websites that generate CSS design elements.",
       imgUrl: cssGenerators,
       githubUrl: "https://github.com/alexisintech/css-generators-api",
       deployedUrl: "https://cssgenerators.co/",
     },
     {
       title: "React Calculator",
-      description: "Design & Development",
+      description:
+        "A calculator app with standard functionality (addition, subtraction, division, multiplication) with floating point calculations supported.",
       imgUrl: calculator,
       githubUrl: "https://github.com/alexisintech/calculator",
       deployedUrl: "https://alexisintech-calculator.netlify.app/",
@@ -45,21 +49,24 @@ export const Projects = () => {
   const openSource = [
     {
       title: "Coding Resources API",
-      description: "Design & Development",
+      description:
+        "The Coding Resources API serves educational content for a wide variety of computer science topics, languages, and technologies related to web development.",
       imgUrl: codingResources,
       githubUrl: "https://github.com/alexisintech/coding-resources-api",
       deployedUrl: "https://coding-resources-api.up.railway.app/",
     },
     {
       title: "Full Stack Interview Questions API",
-      description: "Design & Development",
+      description:
+        "The Full Stack Interview Questions API consists of 150+ questions that have been asked at behavioural and technical interviews in the Tech field.",
       imgUrl: fullstack,
       githubUrl: "https://github.com/alexisintech/interview-question-api",
       deployedUrl: "https://full-stack-interview-prep.up.railway.app/",
     },
     {
       title: "Tic Tac Toe",
-      description: "Design & Development",
+      description:
+        "A 2-player tic-tac-toe game with win and draw validation (local only for now).",
       imgUrl: tictactoe,
       githubUrl: "https://github.com/alexisintech/tic-tac-toe",
       deployedUrl: "https://alexisintech-tictactoe.netlify.app/",
@@ -69,14 +76,16 @@ export const Projects = () => {
   const clientWork = [
     {
       title: "Reversah",
-      description: "Design & Development",
+      description:
+        "Twitch streamer and Faze1 Top 20 Prospect, Reversah, offers custom-designed Valorant merchandise, as famously seen on tik tok. Popular customers include Tiffae, TenZ, Kyedae, and C9 Annie Dro.",
       imgUrl: reversah,
       githubUrl: "https://github.com/alexisintech/Reversah.ValorantBanner",
       deployedUrl: "https://reversah.com/",
     },
     {
       title: "Gen-Z Mon-E",
-      description: "Design & Development",
+      description:
+        "James Bowman, financial coach and host of the Gen-Z Mon-E podcast, helps people pay down bad debts, begin investing, and ultimately reach financial peace.",
       imgUrl: genzmone,
       deployedUrl: "https://genzmone.com/",
     },

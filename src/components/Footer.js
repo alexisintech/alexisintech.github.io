@@ -15,13 +15,13 @@ export const Footer = () => {
             </div>
             <div className="social-icon">
               <a href="#">
-                <img src={linkedin} alt="" />
+                <img src={linkedin} alt="linkedin logo" />
               </a>
               <a href="#">
-                <img src={github} alt="" />
+                <img src={github} alt="github logo" />
               </a>
               <a href="#">
-                <img src={twitter} alt="" />
+                <img src={twitter} alt="twitter logo" />
               </a>
             </div>
             <Nav.Link

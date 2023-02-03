@@ -132,7 +132,7 @@ export const Banner = () => {
             className="order-1 order-md-2 mb-5 mb-md-0"
           >
             <div className="d-flex justify-content-center">
-              <img src={avatar} alt="Header Img" />
+              <img src={avatar} alt="Headshot of Alexis Aguilar" />
             </div>
           </Col>
         </Row>
