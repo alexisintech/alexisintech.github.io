@@ -12,7 +12,6 @@ export const Banner = () => {
   const [text, setText] = useState(""); //will be the character of the role being typed out
   const [characterPeriod, setCharacterPeriod] = useState(100); //how much time passes between each character being typed out
   const [index, setIndex] = useState(1);
-  const [stacked, setStacked] = useState(false);
   const roles = [
     "Software Engineer",
     "Mental Health Advocate",
