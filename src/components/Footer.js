@@ -37,7 +37,7 @@ export const Footer = () => {
               </a>
             </div>
             <a
-              href="https://alexisintech.github.io/socialLinks/"
+              href="https://alexisintech.github.io/links/"
               className="copyright"
               rel="noreferrer"
               target="_blank"
