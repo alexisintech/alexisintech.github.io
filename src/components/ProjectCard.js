@@ -1,4 +1,3 @@
-import { Nav } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Github } from "react-bootstrap-icons";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
@@ -18,14 +17,14 @@ export const ProjectCard = ({
           <h4>{title}</h4>
           <div className="d-flex justify-content-center gap-5">
             {githubUrl && (
-              <Nav.Link href={githubUrl}>
+              <a href={githubUrl} rel="noreferrer" target="_blank">
                 <Github className="icon-sizing" />
-              </Nav.Link>
+              </a>
             )}
             {deployedUrl && (
-              <Nav.Link href={deployedUrl}>
+              <a href={deployedUrl} rel="noreferrer" target="_blank">
                 <BoxArrowUpRight className="icon-sizing" />
-              </Nav.Link>
+              </a>
             )}
           </div>
         </div>

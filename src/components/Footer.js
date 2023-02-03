@@ -1,4 +1,4 @@
-import { Container, Row, Nav } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import linkedin from "../assets/imgs/linkedin.svg";
 import github from "../assets/imgs/github.svg";
 import twitter from "../assets/imgs/twitter.svg";
@@ -14,22 +14,36 @@ export const Footer = () => {
               <span>Connect!</span>
             </div>
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/alexisintech/">
+              <a
+                href="https://www.linkedin.com/in/alexisintech/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img src={linkedin} alt="linkedin logo" />
               </a>
-              <a href="https://github.com/alexisintech">
+              <a
+                href="https://github.com/alexisintech"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img src={github} alt="github logo" />
               </a>
-              <a href="https://twitter.com/alexisintech">
+              <a
+                href="https://twitter.com/alexisintech"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img src={twitter} alt="twitter logo" />
               </a>
             </div>
-            <Nav.Link
+            <a
               href="https://alexisintech.github.io/socialLinks/"
               className="copyright"
+              rel="noreferrer"
+              target="_blank"
             >
               Copyright 2023. All Rights Reserved
-            </Nav.Link>
+            </a>
           </div>
         </Row>
       </Container>

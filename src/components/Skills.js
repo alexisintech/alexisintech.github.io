@@ -27,7 +27,7 @@ export const Skills = () => {
                   ].map((toolName) => (
                     <OverlayTrigger
                       key={toolName}
-                      trigger="hover"
+                      trigger={["hover", "foucs"]}
                       placement="bottom"
                       overlay={
                         <Tooltip id={`tooltip-${toolName}`}>{toolName}</Tooltip>

@@ -57,12 +57,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col
-            xs={12}
-            md={6}
-            xl={7}
-            className="order-2 order-md-1 px-4 px-md-0"
-          >
+          <Col xs={12} md={7} xl={7} className="order-2 order-md-1 px-4">
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -91,6 +86,14 @@ export const Banner = () => {
                         health advocation. She is currently working hard every
                         single day to change her life.
                       </p>
+                      <a
+                        href="https://alexisintech.wixsite.com/blog/about"
+                        rel="noreferrer"
+                        target="_blank"
+                        className="square-button"
+                      >
+                        <span>Get a little more personal...</span>
+                      </a>
                       <button
                         onClick={() => {
                           setShowMore(false);
@@ -123,7 +126,7 @@ export const Banner = () => {
           </Col>
           <Col
             xs={12}
-            md={6}
+            md={5}
             xl={5}
             className="order-1 order-md-2 mb-5 mb-md-0"
           >
