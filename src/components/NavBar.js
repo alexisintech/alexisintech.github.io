@@ -72,13 +72,13 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/alexisintech/">
                   <img src={linkedin} alt="linkedin logo" />
                 </a>
-                <a href="#">
+                <a href="https://github.com/alexisintech">
                   <img src={github} alt="github logo" />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/alexisintech">
                   <img src={twitter} alt="twitter logo" />
                 </a>
               </div>

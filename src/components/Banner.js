@@ -11,7 +11,6 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false); //false, we start with the word being typed out
   const [text, setText] = useState(""); //will be the character of the role being typed out
   const [characterPeriod, setCharacterPeriod] = useState(100); //how much time passes between each character being typed out
-  const [index, setIndex] = useState(1);
   const roles = [
     "Software Engineer",
     "Mental Health Advocate",
@@ -45,15 +44,11 @@ export const Banner = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex((prevIndex) => prevIndex - 1);
       setCharacterPeriod(period);
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setIndex(1);
       setCharacterPeriod(100);
-    } else {
-      setIndex((prevIndex) => prevIndex + 1);
     }
   };
 
