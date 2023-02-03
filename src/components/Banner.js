@@ -27,6 +27,7 @@ export const Banner = () => {
     return () => {
       clearInterval(typer);
     };
+    // eslint-disable-next-line
   }, [text]);
 
   const type = () => {
