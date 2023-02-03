@@ -30,7 +30,7 @@
 - [X] Mobile-first design; responsiveness using CSS Flexbox, Bootstrap, and react-bootstrap
 - [X] Transitions/animations on interactive elements
 - [ ] Add photo carousel of me participating in my passions (reading, journaling, working out, raving)
-- [ ] Maybe add an option to extend the bio EVEN more
+- [X] Maybe add an option to extend the bio EVEN more
   - Mention something about my transition from the biology/veterinary medicine field
 
 <!-- TEA SPILL -->
