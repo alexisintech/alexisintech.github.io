@@ -481,6 +481,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 80px 0;
   position: relative;
 }
+  @media all and (max-width: 426px){
+    .project{
+      padding: 40px 0;
+    }
+  }
 
 .project h2 {
 	font-size: 45px;
