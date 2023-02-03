@@ -2,7 +2,7 @@
 
 > An interactive, fully responsive portfolio to let people get to know me a little, and to showcase a few of my projects.
 
-<img src="/public/imgs/#.gif" width="100%" />
+<img src="/public/portfolio.gif" width="100%" />
 
 <!-- FEATURES -->
 
