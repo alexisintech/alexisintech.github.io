@@ -2,7 +2,10 @@
 
 > An interactive, fully responsive portfolio to let people get to know me a little, and to showcase a few of my projects.
 
-<img src="/public/portfolio.gif" width="100%" />
+This branch `main` is bundled, minified, and optimized for deployment. <br />
+Find the source code in the development branch!
+
+<img src="https://github.com/alexisintech/alexisintech.github.io/blob/main/portfolio.gif" width="100%" />
 
 <!-- FEATURES -->
 
@@ -12,9 +15,6 @@
 - Skills section
 - Projects section
 - Social links
-
-- This branch `main` is bundled, minified, and optimized for deployment.
-- Find the source code in the development branch!
 
 <!-- BUILT WITH -->
 
