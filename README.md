@@ -2,7 +2,7 @@
 
 > An interactive, fully responsive portfolio to let people get to know me a little, and to showcase a few of my projects.
 
-<img src="/public/imgs/#.gif" width="100%" />
+<img src="/public/portfolio.gif" width="100%" />
 
 <!-- FEATURES -->
 
@@ -30,7 +30,7 @@
 - [X] Mobile-first design; responsiveness using CSS Flexbox, Bootstrap, and react-bootstrap
 - [X] Transitions/animations on interactive elements
 - [ ] Add photo carousel of me participating in my passions (reading, journaling, working out, raving)
-- [ ] Maybe add an option to extend the bio EVEN more
+- [X] Maybe add an option to extend the bio EVEN more
   - Mention something about my transition from the biology/veterinary medicine field
 
 <!-- TEA SPILL -->
