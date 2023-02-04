@@ -92,7 +92,7 @@ export const Banner = () => {
                         target="_blank"
                         className="square-button"
                       >
-                        <span>Get a little more personal...</span>
+                        Get a little more personal...
                       </a>
                       <button
                         onClick={() => {
