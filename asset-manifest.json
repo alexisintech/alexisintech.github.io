@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.63252ef6.css",
-    "main.js": "/static/js/main.3dc7b1c1.js",
+    "main.js": "/static/js/main.78970968.js",
     "static/media/avatar.png": "/static/media/avatar.c8c04961b812285f75f8.png",
     "static/media/tictactoe.jpg": "/static/media/tictactoe.561d400e386b221e4451.jpg",
     "static/media/reversah.jpg": "/static/media/reversah.497118cfc5b278d79482.jpg",
+    "static/media/adminme.jpg": "/static/media/adminme.745334850fa0df42e6dd.jpg",
     "static/media/mindfully1.jpg": "/static/media/mindfully1.27240e4fc65df07d3306.jpg",
     "static/media/codingresourcesAPI.jpg": "/static/media/codingresourcesAPI.fbda73205bb9f8378ccf.jpg",
     "static/media/genzmone.jpg": "/static/media/genzmone.ebe7521c9f66372b3d17.jpg",
@@ -15,7 +16,6 @@
     "static/media/fullstackapi.jpg": "/static/media/fullstackapi.12bc96f9ee3d80d59649.jpg",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/seize-the-day.jpg": "/static/media/seize-the-day.50efec58cad578be09dc.jpg",
-    "static/media/calculator.jpg": "/static/media/calculator.063a2824a3904435c138.jpg",
     "static/media/mongoDB.png": "/static/media/mongoDB.41ae1969f341d30268a1.png",
     "static/media/git.png": "/static/media/git.3092b5991e8accb9e7c3.png",
     "static/media/react.png": "/static/media/react.cb15bfce2a9004ce61c5.png",
@@ -25,10 +25,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/twitter.svg": "/static/media/twitter.7dc05b374a7fc28c4bab5ab80234c210.svg",
     "main.63252ef6.css.map": "/static/css/main.63252ef6.css.map",
-    "main.3dc7b1c1.js.map": "/static/js/main.3dc7b1c1.js.map"
+    "main.78970968.js.map": "/static/js/main.78970968.js.map"
   },
   "entrypoints": [
     "static/css/main.63252ef6.css",
-    "static/js/main.3dc7b1c1.js"
+    "static/js/main.78970968.js"
   ]
 }
