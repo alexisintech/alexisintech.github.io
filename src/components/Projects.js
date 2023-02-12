@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import mindfully from "../assets/imgs/mindfully1.jpg";
 import seizeTheDay from "../assets/imgs/seize-the-day.jpg";
 import cssGenerators from "../assets/imgs/cssgeneratorsapi.jpg";
-import calculator from "../assets/imgs/calculator.jpg";
+import adminme from "../assets/imgs/adminme.jpg";
 import codingResources from "../assets/imgs/codingresourcesAPI.jpg";
 import fullstack from "../assets/imgs/fullstackapi.jpg";
 import tictactoe from "../assets/imgs/tictactoe.jpg";
@@ -23,7 +23,7 @@ export const Projects = () => {
     {
       title: "Seize The Day",
       description:
-        "Seize The Day is a task tracking website so that you can organize your day, mindfully.",
+        "Seize The Day is a task tracking application so that you can organize your day, mindfully.",
       imgUrl: seizeTheDay,
       githubUrl: "https://github.com/alexisintech/seize-the-day",
       deployedUrl: "https://seize-the-day.netlify.app/",
@@ -37,12 +37,12 @@ export const Projects = () => {
       deployedUrl: "https://cssgenerators.co/",
     },
     {
-      title: "React Calculator",
+      title: "AdminMe",
       description:
-        "A calculator app with standard functionality (addition, subtraction, division, multiplication) with floating point calculations supported.",
-      imgUrl: calculator,
-      githubUrl: "https://github.com/alexisintech/calculator",
-      deployedUrl: "https://alexisintech-calculator.netlify.app/",
+        "More than a dashboard; AdminMe includes three fully interactive data tables, a functional calendar, and four different chart types for displaying analytics.",
+      imgUrl: adminme,
+      githubUrl: "https://github.com/alexisintech/adminme",
+      deployedUrl: "https://adminme.netlify.app/",
     },
   ];
 
