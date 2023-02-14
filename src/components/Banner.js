@@ -57,7 +57,12 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={7} xl={7} className="order-2 order-md-1 px-4">
+          <Col
+            xs={12}
+            md={7}
+            xl={7}
+            className="order-2 order-md-1 px-4 text-align"
+          >
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -112,6 +117,7 @@ export const Banner = () => {
                         ideas.
                       </p>
                       <button
+                        className="mx-auto mx-md-0"
                         onClick={() => {
                           setShowMore(true);
                         }}
