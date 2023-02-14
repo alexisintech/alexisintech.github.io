@@ -82,12 +82,12 @@ export const Banner = () => {
                   {showMore ? (
                     <div>
                       <p>
-                        Alexis Aguilar is a full-stack web developer and is
-                        incredibly passionate about her mantra: "constantly
-                        learning, forever growing." Every day, whether it be for
-                        personal growth or programming, she enjoys exploring new
-                        ideas. Aside from programming, she participates in
-                        community development, personal growth, and mental
+                        Alexis Aguilar is more than just an incredibly
+                        inquisitive full-stack web developer; she's your
+                        shoulder to lean on. She prioritizes making an impact by
+                        consistently practicing her values of kindness, empathy,
+                        and diligence. Aside from programming, she participates
+                        in community development, personal growth, and mental
                         health advocation. She is currently working hard every
                         single day to change her life.
                       </p>
@@ -97,7 +97,7 @@ export const Banner = () => {
                         target="_blank"
                         className="square-button"
                       >
-                        Get a little more personal...
+                        Check out her blog!
                       </a>
                       <button
                         onClick={() => {

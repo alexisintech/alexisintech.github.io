@@ -460,6 +460,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
           animation: wobble-hor-bottom 0.8s both;
 }
 
+.blog-button:hover{transform:scale(1.2)}
+
 /**
  * ----------------------------------------
  * animation wobble-hor-bottom
