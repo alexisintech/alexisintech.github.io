@@ -449,6 +449,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
   }
 
+#tooltip-click-me{
+  font-size:1.2rem;
+  font-style:italic;
+  margin-bottom:1rem;
+}
+
 .about-image:hover {
   -webkit-animation: wobble-hor-bottom 0.8s both;
           animation: wobble-hor-bottom 0.8s both;
