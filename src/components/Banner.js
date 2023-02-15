@@ -92,7 +92,7 @@ export const Banner = () => {
                         single day to change her life.
                       </p>
                       <a
-                        href="https://alexisintech.wixsite.com/blog/about"
+                        href="https://alexisintech.wixsite.com/blog"
                         rel="noreferrer"
                         target="_blank"
                         className="square-button"
@@ -110,11 +110,11 @@ export const Banner = () => {
                   ) : (
                     <div>
                       <p>
-                        Alexis Aguilar is a full-stack web developer and is
-                        incredibly passionate about her mantra: "constantly
-                        learning, forever growing." Every day, whether it be for
-                        personal growth or programming, she enjoys exploring new
-                        ideas.
+                        Alexis Aguilar is more than just an incredibly
+                        inquisitive full-stack web developer; she's your
+                        shoulder to lean on. She prioritizes making an impact by
+                        consistently practicing her values of kindness, empathy,
+                        and diligence.
                       </p>
                       <button
                         className="mx-auto mx-md-0"
