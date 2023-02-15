@@ -2,16 +2,16 @@
 
 > An interactive, fully responsive portfolio to let people get to know me a little, and to showcase a few of my projects.
 
-<img src="/public/portfolio.gif" width="100%" />
+<img src="https://github.com/alexisintech/alexisintech.github.io/blob/main/portfolio.gif" width="100%" />
 
 <!-- FEATURES -->
 
 ## ⭐ Features
 
-- About me section
-- Skills section
-- Projects section
-- Social links
+- About me section with a extendable bio, and four extendable key values/points about myself
+- Skills section illustrating different tech languages I am proficient in
+- Projects section showcasing my best personal, open source, and client projects
+- Social links to get the full breadth of my wonderful content 😄
 
 <!-- BUILT WITH -->
 
@@ -29,7 +29,6 @@
 
 - [X] Mobile-first design; responsiveness using CSS Flexbox, Bootstrap, and react-bootstrap
 - [X] Transitions/animations on interactive elements
-- [ ] Add photo carousel of me participating in my passions (reading, journaling, working out, raving)
 - [X] Maybe add an option to extend the bio EVEN more
   - Mention something about my transition from the biology/veterinary medicine field
 
