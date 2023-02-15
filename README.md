@@ -8,10 +8,10 @@
 
 ## ⭐ Features
 
-- About me section
-- Skills section
-- Projects section
-- Social links
+- About me section with a extendable bio, and four extendable key values/points about myself
+- Skills section illustrating different tech languages I am proficient in
+- Projects section showcasing my best personal, open source, and client projects
+- Social links to get the full breadth of my wonderful content 😄
 
 <!-- BUILT WITH -->
 
@@ -29,7 +29,6 @@
 
 - [X] Mobile-first design; responsiveness using CSS Flexbox, Bootstrap, and react-bootstrap
 - [X] Transitions/animations on interactive elements
-- [ ] Add photo carousel of me participating in my passions (reading, journaling, working out, raving)
 - [X] Maybe add an option to extend the bio EVEN more
   - Mention something about my transition from the biology/veterinary medicine field
 
