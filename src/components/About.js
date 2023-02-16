@@ -1,4 +1,4 @@
-import { Container, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import labcoat from "../assets/imgs/labcoat.png";
 import seedling from "../assets/imgs/seedling.png";
 import hands from "../assets/imgs/shaking-hands.png";
@@ -25,11 +25,11 @@ export const About = () => {
             imgUrl={seedling}
             description="Alexis is incredibly passionate about her mantra: 'constantly learning, forever growing.' After surviving an adverse childhood, she spends every day creating a life to be proud of. Through reading, journaling, and spirituality, she dedicates herself to nurturing meaningful relationships, finding balance between stress versus positivity, and prioritizing consistent, active growth."
           />
-          <Widget
+          {/* <Widget
             title="Community"
             imgUrl={hands}
             description="Peace, Love, Unity, Respect. Alexis is incredibly proud to be a Community Relations Administrator of Space Fam, a community of 400+ ravers in Miami, FL. Alexis manages the community chat and discord server, organizes events and info sessions, and advocates for rave safety through drug education and awareness. She loves connecting electronic dance lovers with their favourite DJ's in the music industry."
-          />
+          /> */}
           <Widget
             title="Blog"
             imgUrl={write}
