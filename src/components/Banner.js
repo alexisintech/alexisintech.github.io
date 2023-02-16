@@ -86,9 +86,9 @@ export const Banner = () => {
                         inquisitive full-stack web developer; she's your
                         shoulder to lean on. She prioritizes making an impact by
                         consistently practicing her values of kindness, empathy,
-                        and diligence. Aside from programming, she participates
-                        in community development, personal growth, and mental
-                        health advocation. She is currently working hard every
+                        and diligence. With her eclectic background in various
+                        scientific fields, she brings a unique perspective to
+                        web development. She is currently working hard every
                         single day to change her life.
                       </p>
                       <a
