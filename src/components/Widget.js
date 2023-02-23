@@ -40,6 +40,7 @@ const Widget = ({ title, imgUrl, description }) => {
                 rel="noreferrer"
                 target="_blank"
                 className="blog-button"
+                aria-label="alexisintech's blog"
               >
                 <ArrowRightCircle
                   style={{ fontSize: "2rem", cursor: "pointer" }}

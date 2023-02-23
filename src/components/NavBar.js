@@ -76,6 +76,7 @@ export const NavBar = () => {
                   href="https://www.linkedin.com/in/alexisintech/"
                   rel="noreferrer"
                   target="_blank"
+                  aria-label="linkedin"
                 >
                   <img src={linkedin} alt="linkedin logo" />
                 </a>
@@ -83,6 +84,7 @@ export const NavBar = () => {
                   href="https://github.com/alexisintech"
                   rel="noreferrer"
                   target="_blank"
+                  aria-label="github"
                 >
                   <img src={github} alt="github logo" />
                 </a>
@@ -90,6 +92,7 @@ export const NavBar = () => {
                   href="https://twitter.com/alexisintech"
                   rel="noreferrer"
                   target="_blank"
+                  aria-label="twitter"
                 >
                   <img src={twitter} alt="twitter logo" />
                 </a>

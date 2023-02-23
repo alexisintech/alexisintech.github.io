@@ -96,6 +96,7 @@ export const Banner = () => {
                         rel="noreferrer"
                         target="_blank"
                         className="square-button"
+                        aria-label="alexisintech's blog"
                       >
                         Check out her blog!
                       </a>

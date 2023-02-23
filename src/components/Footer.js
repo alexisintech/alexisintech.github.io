@@ -18,22 +18,25 @@ export const Footer = () => {
                 href="https://www.linkedin.com/in/alexisintech/"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="linkedin"
               >
-                <img src={linkedin} alt="linkedin logo" />
+                <img src={linkedin} alt="linkedin logo" loading="lazy" />
               </a>
               <a
                 href="https://github.com/alexisintech"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="github"
               >
-                <img src={github} alt="github logo" />
+                <img src={github} alt="github logo" loading="lazy" />
               </a>
               <a
                 href="https://twitter.com/alexisintech"
                 rel="noreferrer"
                 target="_blank"
+                aria-label="twitter"
               >
-                <img src={twitter} alt="twitter logo" />
+                <img src={twitter} alt="twitter logo" loading="lazy" />
               </a>
             </div>
             <a
@@ -41,6 +44,7 @@ export const Footer = () => {
               className="copyright"
               rel="noreferrer"
               target="_blank"
+              aria-label="alexisintech's social links"
             >
               Copyright 2023. All Rights Reserved
             </a>

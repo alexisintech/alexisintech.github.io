@@ -36,6 +36,7 @@ export const Skills = () => {
                       <Image
                         src={require(`../assets/imgs/${toolName}.png`)}
                         alt={toolName}
+                        loading="lazy"
                       />
                     </OverlayTrigger>
                   ))}
