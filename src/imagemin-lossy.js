@@ -3,7 +3,7 @@ import imageminMozjpeg from "imagemin-mozjpeg";
 import imageminPngquant from "imagemin-pngquant";
 
 const files = await imagemin(["./assets/imgs/*.{jpg,png}"], {
-  destination: "build/src/assets/imgs",
+  destination: "build/static/media",
   plugins: [
     imageminMozjpeg({
       quality: 80,
