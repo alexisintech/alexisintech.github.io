@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowDownCircle, ArrowUpCircle } from "react-bootstrap-icons";
 import avatar from "../assets/imgs/avatar.png";
+import me from "../assets/imgs/profile-pic.jpg"
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -138,7 +139,7 @@ export const Banner = () => {
             className="order-1 order-md-2 mb-5 mb-md-0"
           >
             <div className="d-flex justify-content-center">
-              <img src={avatar} alt="Headshot of Alexis Aguilar" />
+              <img className="rounded-circle" src={me} alt="Headshot of Alexis Aguilar" />
             </div>
           </Col>
         </Row>

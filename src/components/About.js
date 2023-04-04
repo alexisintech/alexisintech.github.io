@@ -33,7 +33,7 @@ export const About = () => {
           <Widget
             title="Blog"
             imgUrl={write}
-            description="Taking 5-10 minutes to read a summary can be significantly more efficient than watching the 30 minute video. Alexis's daily blog posts include thoughtfully written summaries/notes for resources on web development, job hunting, and other technical topics. She feels fulfilled when she can provide value to others, so she enjoys giving back to the developer community in any way she can."
+            description="Alexis's blog posts include thoughtfully written summaries/notes for resources on web development, job hunting, and other technical topics. She feels fulfilled when she can provide value to others, so she enjoys giving back to the developer community in any way that she can."
           />
         </Row>
       </Container>

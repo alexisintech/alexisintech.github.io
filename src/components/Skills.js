@@ -16,13 +16,18 @@ export const Skills = () => {
                   {[
                     "html",
                     "css",
+                    "react",
+                    "mui",
+                    "tailwind",
+                    "bootstrap",
                     "javascript",
+                    "typescript",
                     "node",
                     "express",
+                    "next",
+                    "prisma",
                     "mongoDB",
-                    "react",
-                    "bootstrap",
-                    "mui",
+                    "postgresql",
                     "git",
                   ].map((toolName) => (
                     <OverlayTrigger

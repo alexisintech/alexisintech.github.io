@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center justify-content-center">
-          <div className="d-flex flex-column align-items-center justify-content-center">
+          <div className="d-flex flex-column align-items-center justify-content-center gap-2">
             <div className="brand">
               <span>Let's </span>
               <span>Connect!</span>
@@ -39,15 +39,7 @@ export const Footer = () => {
                 <img src={twitter} alt="twitter logo" loading="lazy" />
               </a>
             </div>
-            <a
-              href="https://alexisintech.github.io/links/"
-              className="copyright"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="alexisintech's social links"
-            >
-              Copyright 2023. All Rights Reserved
-            </a>
+            <hr style={{width:"200px"}}/>
           </div>
         </Row>
       </Container>

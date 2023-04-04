@@ -145,6 +145,7 @@ span.navbar-text {
 
 .navbar-collapse .navbar-nav{
   align-items:flex-end;
+  gap:0.5rem;
 }
 
 .navbar-collapse span.navbar-text button{
@@ -156,7 +157,7 @@ span.navbar-text {
 }
 
 .navbar-collapse span.navbar-text {
-  padding-right:10px;
+  padding:15px 0;
 }
 
 .social-icon {
@@ -416,6 +417,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
+  @media all and (max-width:764px){
+    .banner button{
+      margin: 0 auto;
+    }
+  }
 
 .banner button:hover{transform:scale(1.2)}
 
