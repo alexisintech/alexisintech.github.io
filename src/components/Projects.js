@@ -1,14 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import mindfully from "../assets/imgs/mindfully1.jpg";
-import seizeTheDay from "../assets/imgs/seize-the-day.jpg";
-import cssGenerators from "../assets/imgs/cssgeneratorsapi.jpg";
-import adminme from "../assets/imgs/adminme.jpg";
-import codingResources from "../assets/imgs/codingresourcesAPI.jpg";
-import fullstack from "../assets/imgs/fullstackapi.jpg";
-import tictactoe from "../assets/imgs/tictactoe.jpg";
-import reversah from "../assets/imgs/reversah.jpg";
-import genzmone from "../assets/imgs/genzmone.jpg";
+import mindfully from "../assets/imgs/mindfully1.webp";
+import seizeTheDay from "../assets/imgs/seize-the-day.webp";
+import cssGenerators from "../assets/imgs/cssgeneratorsapi.webp";
+import adminme from "../assets/imgs/adminme.webp";
+import codingResources from "../assets/imgs/codingresourcesAPI.webp";
+import fullstack from "../assets/imgs/fullstackapi.webp";
+import tictactoe from "../assets/imgs/tictactoe.webp";
+import reversah from "../assets/imgs/reversah.webp";
+import genzmone from "../assets/imgs/genzmone.webp";
 
 export const Projects = () => {
   const projects = [

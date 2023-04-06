@@ -1,8 +1,8 @@
 import { Container, Row } from "react-bootstrap";
-import labcoat from "../assets/imgs/labcoat.png";
-import seedling from "../assets/imgs/seedling.png";
-import hands from "../assets/imgs/shaking-hands.png";
-import write from "../assets/imgs/blog.png";
+import labcoat from "../assets/imgs/labcoat.webp";
+import seedling from "../assets/imgs/seedling.webp";
+import hands from "../assets/imgs/shaking-hands.webp";
+import write from "../assets/imgs/blog.webp";
 import Widget from "./Widget";
 
 export const About = () => {

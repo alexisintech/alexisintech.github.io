@@ -39,7 +39,7 @@ export const Skills = () => {
                       }
                     >
                       <Image
-                        src={require(`../assets/imgs/${toolName}.png`)}
+                        src={require(`../assets/imgs/${toolName}.webp`)}
                         alt={toolName}
                         loading="lazy"
                       />

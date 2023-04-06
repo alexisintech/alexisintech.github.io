@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowDownCircle, ArrowUpCircle } from "react-bootstrap-icons";
-import me from "../assets/imgs/profile-pic.jpg"
+import me from "../assets/imgs/profile-pic.webp"
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
