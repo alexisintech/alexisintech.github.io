@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.967524fd.css",
-    "main.js": "/static/js/main.40d814dd.js",
+    "main.css": "/static/css/main.039fcc80.css",
+    "main.js": "/static/js/main.7a666002.js",
     "static/media/profile-pic.webp": "/static/media/profile-pic.99cbe7cfc2f496cc5998.webp",
     "static/media/next.webp": "/static/media/next.ccb89f2bcd0102c1bb38.webp",
     "static/media/tictactoe.webp": "/static/media/tictactoe.6d5e61c30a1bd48d8ce8.webp",
@@ -22,6 +22,8 @@
     "static/media/bootstrap.webp": "/static/media/bootstrap.ab096544bfa83147cc22.webp",
     "static/media/tailwind.webp": "/static/media/tailwind.95010cf3466186e730ed.webp",
     "static/media/seize-the-day.webp": "/static/media/seize-the-day.48f3e7d85e3ec77d3263.webp",
+    "static/media/shopify.webp": "/static/media/shopify.3cbd37575f6fd7cfb7f6.webp",
+    "static/media/wordpress.webp": "/static/media/wordpress.bf65525a64e4ceed9444.webp",
     "static/media/labcoat.webp": "/static/media/labcoat.22b06d55fceaeb0eea8b.webp",
     "static/media/shaking-hands.webp": "/static/media/shaking-hands.12222517b82f116916c9.webp",
     "static/media/seedling.webp": "/static/media/seedling.ff8a49f86be2a0609937.webp",
@@ -40,11 +42,11 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/twitter.svg": "/static/media/twitter.7dc05b374a7fc28c4bab5ab80234c210.svg",
-    "main.967524fd.css.map": "/static/css/main.967524fd.css.map",
-    "main.40d814dd.js.map": "/static/js/main.40d814dd.js.map"
+    "main.039fcc80.css.map": "/static/css/main.039fcc80.css.map",
+    "main.7a666002.js.map": "/static/js/main.7a666002.js.map"
   },
   "entrypoints": [
-    "static/css/main.967524fd.css",
-    "static/js/main.40d814dd.js"
+    "static/css/main.039fcc80.css",
+    "static/js/main.7a666002.js"
   ]
 }
