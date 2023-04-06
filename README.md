@@ -2,7 +2,7 @@
 
 > An interactive, fully responsive portfolio to let people get to know me a little, and to showcase a few of my projects.
 
-<img src="https://github.com/alexisintech/alexisintech.github.io/blob/main/portfolio.gif" width="100%" />
+<img src="https://github.com/alexisintech/alexisintech.github.io/blob/update-main/public/portfolio.gif" width="100%" />
 
 <!-- FEATURES -->
 
