@@ -1,4 +1,7 @@
 import { Col } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 import { Github } from "react-bootstrap-icons";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 
@@ -8,6 +11,7 @@ export const ProjectCard = ({
   imgUrl,
   githubUrl,
   deployedUrl,
+  tech,
 }) => {
   return (
     <Col size={12} md={6}>
@@ -15,7 +19,7 @@ export const ProjectCard = ({
         <img src={imgUrl} alt={description} loading="lazy" />
         <div className="proj-txtx">
           <h3>{title}</h3>
-          <div className="d-flex justify-content-center gap-5">
+          <div className="d-flex justify-content-center gap-5 mb-3">
             {githubUrl && (
               <a
                 href={githubUrl}
@@ -35,6 +39,23 @@ export const ProjectCard = ({
               >
                 <BoxArrowUpRight className="icon-sizing" />
               </a>
+            )}
+          </div>
+          <div className="d-flex justify-content-center gap-2">
+            <h4 className="fs-5 fw-light">Skills:</h4>
+            {tech.map(techImage => 
+            (
+              <OverlayTrigger
+                key={techImage}
+                trigger={["hover", "focus"]}
+                placement="bottom"
+                overlay={
+                  <Tooltip id={`tooltip-${techImage}`}>{techImage}</Tooltip>
+                }
+              >
+                <Image src={require(`../assets/imgs/${techImage}.webp`)} className="proj-tech" alt={techImage} loading="lazy"/>
+              </OverlayTrigger>
+            )
             )}
           </div>
         </div>

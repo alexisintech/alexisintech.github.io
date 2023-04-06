@@ -88,17 +88,14 @@ export const Banner = () => {
                         consistently practicing her values of kindness, empathy,
                         and diligence. With her eclectic background in various
                         scientific fields, she brings a unique perspective to
-                        web development. She is currently working hard every
-                        single day to change her life.
+                        web development. She is currently seeking frontend, backend, or full stack roles.
                       </p>
                       <a
-                        href="https://alexisintech.wixsite.com/blog"
-                        rel="noreferrer"
-                        target="_blank"
+                        href="#projects"
                         className="square-button"
-                        aria-label="alexisintech's blog"
+                        aria-label="scroll down to alexisintech's projects"
                       >
-                        Check out her blog!
+                        See her work
                       </a>
                       <button
                         onClick={() => {

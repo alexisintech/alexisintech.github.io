@@ -351,7 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
   margin-top:1.5rem;
-  margin-bottom:1rem;
+  margin-bottom:1.5rem;
 }
   @media all and (max-width:1025px){
     .banner p {
@@ -375,7 +375,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration:none;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
-  margin-bottom:1rem;
+  margin-bottom:1.5rem;
 }
   @media all and (max-width: 1205px){
     .banner .square-button {
@@ -539,7 +539,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ SKILLS ************/
 
 .skills {
-  padding: 200px 0 75px 0;
+  padding: 250px 0 150px 0;
   position: relative;
 }
   @media all and (max-width:770px){
@@ -588,14 +588,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   @media all and (max-width:426px){
     .icon-container{
-      max-width:230px;
+      gap: 1.5rem;
+    }
+  }
+  @media all and (max-width:413px){
+    .icon-container{
+      gap: 1rem;
     }
   }
 
 /************ PROJECTS ************/
 
 .project {
-  padding: 80px 0;
+  padding: 200px 0 0 0;
   position: relative;
 }
   @media all and (max-width: 426px){
@@ -744,19 +749,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
-}
-  @media all and (max-width:426px){
-    .proj-txtx h4 {
-      font-size:22px;
-    }
-  }
-
-.proj-txtx .icon-sizing {
+.proj-txtx .icon-sizing, .proj-tech {
   width:25px;
   height:25px;
 }

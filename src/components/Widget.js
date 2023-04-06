@@ -18,7 +18,7 @@ const Widget = ({ title, imgUrl, description }) => {
   };
 
   return (
-    <Col xs={12} md={4} className="mb-5">
+    <Col xs={12} md={4} className="mb-5 mb-md-0">
       <div className="d-flex flex-column align-items-center text-center">
         <CustomOverlayTrigger>
           <img

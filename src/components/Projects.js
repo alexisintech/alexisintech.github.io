@@ -19,6 +19,9 @@ export const Projects = () => {
       imgUrl: mindfully,
       githubUrl: "https://github.com/alexisintech/mindfully",
       deployedUrl: "https://mindfully.up.railway.app/",
+      tech: [
+        "bootstrap", "javascript", "node", "express", "mongoDB"
+      ]
     },
     {
       title: "Seize The Day",
@@ -27,6 +30,9 @@ export const Projects = () => {
       imgUrl: seizeTheDay,
       githubUrl: "https://github.com/alexisintech/seize-the-day",
       deployedUrl: "https://seize-the-day.netlify.app/",
+      tech: [
+        "react", "mui", "javascript", "node", "express", "mongoDB"
+      ]
     },
     {
       title: "CSS Generators API",
@@ -35,6 +41,9 @@ export const Projects = () => {
       imgUrl: cssGenerators,
       githubUrl: "https://github.com/alexisintech/css-generators-api",
       deployedUrl: "https://cssgenerators.co/",
+      tech: [
+        "html", "css", "javascript", "node", "express",
+      ]
     },
     {
       title: "AdminMe",
@@ -43,6 +52,9 @@ export const Projects = () => {
       imgUrl: adminme,
       githubUrl: "https://github.com/alexisintech/adminme",
       deployedUrl: "https://adminme.netlify.app/",
+      tech: [
+        "react", "mui", "javascript"
+      ]
     },
   ];
 
@@ -54,6 +66,9 @@ export const Projects = () => {
       imgUrl: codingResources,
       githubUrl: "https://github.com/alexisintech/coding-resources-api",
       deployedUrl: "https://coding-resources-api.up.railway.app/",
+      tech: [
+        "html", "css", "javascript", "node", "express",
+      ]
     },
     {
       title: "Full Stack Interview Questions API",
@@ -62,6 +77,9 @@ export const Projects = () => {
       imgUrl: fullstack,
       githubUrl: "https://github.com/alexisintech/interview-question-api",
       deployedUrl: "https://full-stack-interview-prep.up.railway.app/",
+      tech: [
+        "html", "css", "javascript", "node", "express",
+      ]
     },
     {
       title: "Tic Tac Toe",
@@ -70,6 +88,9 @@ export const Projects = () => {
       imgUrl: tictactoe,
       githubUrl: "https://github.com/alexisintech/tic-tac-toe",
       deployedUrl: "https://alexisintech-tictactoe.netlify.app/",
+      tech: [
+        "html", "css", "javascript"
+      ]
     },
   ];
 
@@ -81,6 +102,9 @@ export const Projects = () => {
       imgUrl: reversah,
       githubUrl: "https://github.com/alexisintech/Reversah.ValorantBanner",
       deployedUrl: "https://reversah.com/",
+      tech: [
+        "html", "css", "javascript", "shopify",
+      ]
     },
     {
       title: "Gen-Z Mon-E",
@@ -88,6 +112,9 @@ export const Projects = () => {
         "James Bowman, financial coach and host of the Gen-Z Mon-E podcast, helps people pay down bad debts, begin investing, and ultimately reach financial peace.",
       imgUrl: genzmone,
       deployedUrl: "https://genzmone.com/",
+      tech: [
+        "html", "css", "javascript", "wordpress",
+      ]
     },
   ];
 
