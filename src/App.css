@@ -600,22 +600,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ PROJECTS ************/
 
 .project {
-  padding: 200px 0 0 0;
   position: relative;
 }
-  @media all and (max-width: 426px){
-    .project{
-      padding: 40px 0;
-    }
-  }
 
-.project h2 {
+.project h2, .larger-h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
 
-.project p {
+.project p, .about .subheading {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -624,13 +618,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
-  @media all and (max-width:767px){
-    .project p{
+  @media all and (max-width:1023px){
+    .project p, .about .subheading{
       width:80%;
     }
   }
   @media all and (max-width:426px){
-    .project p{
+    .project p, .about .subheading{
       font-size:1rem;
     }
   }
@@ -754,10 +748,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height:25px;
 }
 
+/************ ABOUT ************/
+
+.about {
+  padding: 200px 0 0 0;
+}
+  @media all and (max-width: 770px){
+    .about {
+      padding: 110px 0 25px 0;
+    }
+  }
+
+.about .subheading {
+  margin: 2rem auto;
+}
+
 /************ FOOTER ************/
 
 .footer {
-  padding: 25px 0 65px 0;
+  padding: 50px 0 65px 0;
 }
 
 .footer .brand {

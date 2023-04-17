@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowDownCircle, ArrowUpCircle } from "react-bootstrap-icons";
-import me from "../assets/imgs/profile-pic.webp"
+import me from "../assets/imgs/profile-pic.webp";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -82,20 +82,23 @@ export const Banner = () => {
                   {showMore ? (
                     <div>
                       <p>
-                        Alexis Aguilar is more than just an incredibly
-                        inquisitive full-stack web developer; she's your
-                        shoulder to lean on. She prioritizes making an impact by
-                        consistently practicing her values of kindness, empathy,
-                        and diligence. With her eclectic background in various
-                        scientific fields, she brings a unique perspective to
-                        web development. She is currently seeking frontend, backend, or full stack roles.
+                        Alexis Aguilar is a full-stack developer who specializes
+                        in JavaScript technologies. She has proven client and
+                        open-source experience building RESTful API's and
+                        delivering responsive, scalable user interfaces. Her
+                        background in scientific research and in the medical
+                        field has created a solid foundation of team
+                        communication, an obsession for detail, an emphasis on
+                        humanitarianism, and a passion for analyzing and
+                        problem-solving. She's currently seeking frontend,
+                        backend, or full stack roles.
                       </p>
                       <a
-                        href="#projects"
+                        href="#about"
                         className="square-button"
-                        aria-label="scroll down to alexisintech's projects"
+                        aria-label="scroll down to alexisintech's about section"
                       >
-                        See her work
+                        Learn more about her values
                       </a>
                       <button
                         onClick={() => {
@@ -108,11 +111,10 @@ export const Banner = () => {
                   ) : (
                     <div>
                       <p>
-                        Alexis Aguilar is more than just an incredibly
-                        inquisitive full-stack web developer; she's your
-                        shoulder to lean on. She prioritizes making an impact by
-                        consistently practicing her values of kindness, empathy,
-                        and diligence.
+                        Alexis Aguilar is a full-stack developer who specializes
+                        in JavaScript technologies. She has proven client and
+                        open-source experience building RESTful API's and
+                        delivering responsive, scalable user interfaces.
                       </p>
                       <button
                         className="mx-auto mx-md-0"
@@ -135,7 +137,11 @@ export const Banner = () => {
             className="order-1 order-md-2 mb-5 mb-md-0"
           >
             <div className="d-flex justify-content-center">
-              <img className="rounded-circle" src={me} alt="Headshot of Alexis Aguilar" />
+              <img
+                className="rounded-circle"
+                src={me}
+                alt="Headshot of Alexis Aguilar"
+              />
             </div>
           </Col>
         </Row>
